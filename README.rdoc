@@ -1,3 +1,5 @@
 = TableRenamable
 
+{<img src="https://codeclimate.com/repos/526ae72f13d637486e058092/badges/c6fbdb72bdc4b463058d/gpa.png" />}[https://codeclimate.com/repos/526ae72f13d637486e058092/feed]
+
 This project rocks and uses MIT-LICENSE.
