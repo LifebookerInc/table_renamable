@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    table_renamable (0.0.1)
+    table_renamable (3.0.0)
       rails (~> 3.2.14)
 
 GEM
