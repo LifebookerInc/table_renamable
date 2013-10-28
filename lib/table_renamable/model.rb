@@ -6,16 +6,14 @@ module TableRenamable
   #
   module Model
 
-    extend ActiveSupport::Concern
-
     class NoTableError < Exception; end;
 
 
-    included do |klass|
-      klass.class_attribute :deprecated_columns
+    def self.included(klass)
+      klass.send(:extend, ClassMethods)
+      klass.class_inheritable_accessor :deprecated_columns
       klass.deprecated_columns = []
     end
-
 
     #
     # Return our list of deprecated tables

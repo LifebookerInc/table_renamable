@@ -5,15 +5,11 @@ source "https://rubygems.org"
 # development dependencies will be added by default to the :development group.
 gemspec
 
-# jquery-rails is used by the dummy application
-gem "jquery-rails"
-
 group :test do
   gem 'guard-bundler'
   gem 'guard-rspec'
-  gem 'rspec-rails'
-  gem 'byebug'
-  gem 'mysql2'
+  gem 'rspec-rails', "1.3.4"
+  gem 'debugger'
 end
 
 # Declare any dependencies that are still in development here instead of in

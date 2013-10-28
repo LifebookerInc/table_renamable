@@ -3,9 +3,9 @@
 # Do not set this db to the same as development or production.
 test:
   adapter: mysql2
-  host: localhost
+  database: 'table_renamable_test'
   username: root
   password:
-  database: 'table_renamable_test'
+  host: 'localhost'
   pool: 5
   timeout: 5000
